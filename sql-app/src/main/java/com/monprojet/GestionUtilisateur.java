@@ -127,7 +127,8 @@ public class GestionUtilisateur {
                 System.out.println("Aucun utilisateur trouve avec cet email.");
             }
         } catch (SQLException e) {
-            System.err.println("Erreur SQL : " + e.getMessage());
+            System.err.println("Erreur SQL : " + e.getMessage());'rrrr
+            '
         }
     }
 
