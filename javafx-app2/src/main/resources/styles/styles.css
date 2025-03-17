@@ -1,0 +1,87 @@
+/* Définir des styles de base pour l'application */
+.root {
+    -fx-font-family: "Arial";
+    -fx-font-size: 14px;
+    -fx-background-image: url("/images/imageFond.jpeg"); /* Image de fond */
+    -fx-background-size: cover; /* Couvre toute la zone */
+    -fx-background-position: center; /* Centre l'image */
+}
+
+/* Style pour les labels */
+.label {
+    -fx-text-fill: white; /* Couleur du texte */
+    -fx-font-weight: bold; /* Gras */
+}
+/* Style pour les boutons */
+.button {
+    -fx-background-color: rgba(0, 123, 255, 0.8); /* Couleur de fond */
+    -fx-text-fill: white; /* Couleur du texte */
+    -fx-padding: 10px 15px; /* Espacement interne */
+    -fx-font-size: 14px; /* Taille de la police */
+    -fx-font-weight: bold; /* Gras */
+    -fx-background-radius: 5px; /* Coins arrondis */
+}
+
+.button:hover {
+    -fx-background-color: rgba(0, 86, 179, 0.8); /* Couleur de fond au survol */
+}
+
+/* Style pour les champs de texte */
+.text-field {
+    -fx-background-color: rgba(255, 255, 255, 0.9); /* Couleur de fond */
+    -fx-border-color: #ccc; /* Couleur de la bordure */
+    -fx-border-radius: 5px; /* Coins arrondis */
+    -fx-padding: 5px; /* Espacement interne */
+}
+
+.text-field:focused {
+    -fx-border-color: #007bff; /* Couleur de la bordure au focus */
+}
+
+/* Style pour la TableView */
+.table-view {
+    -fx-background-color: rgba(255, 255, 255, 0.9); /* Couleur de fond */
+    -fx-border-color: #ccc; /* Couleur de la bordure */
+    -fx-border-radius: 5px; /* Coins arrondis */
+}
+
+.table-view .table-column-header {
+    -fx-background-color: #007bff; /* Couleur de fond des en-têtes */
+    -fx-text-fill: white; /* Couleur du texte des en-têtes */
+}
+
+/* Style pour les lignes de la TableView */
+.table-view .table-row {
+    -fx-background-color: white; /* Couleur de fond des lignes */
+}
+
+.table-view .table-row:hover {
+    -fx-background-color: #f0f0f0; /* Couleur de fond au survol */
+}
+
+/* Style pour les alertes */
+.alert {
+    -fx-background-color: #fff; /* Couleur de fond */
+    -fx-border-color: #007bff; /* Couleur de la bordure */
+    -fx-border-radius: 5px; /* Coins arrondis */
+    -fx-padding: 10px; /* Espacement interne */
+}
+
+/* Style pour les HBox et VBox */
+.hbox, .vbox {
+    -fx-spacing: 10; /* Espacement entre les éléments */
+}
+
+/* Style pour les TextField dans les HBox */
+.hbox .text-field {
+    -fx-pref-width: 150; /* Largeur préférée pour les champs de texte */
+}
+
+/* Style pour les TableColumn */
+.table-column {
+    -fx-alignment: CENTER; /* Alignement du texte au centre */
+}
+
+#deleteButton {
+    -fx-background-color: red; /* Couleur de fond */
+}
